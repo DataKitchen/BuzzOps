@@ -150,6 +150,321 @@ BUZZWORD_TRANSLATIONS = {
         "they_say": "Responsible innovation with trusted enterprise controls.",
         "they_mean": "Same governance meeting. New deck. More panic.",
     },
+    # --- AI / Intelligence terms ---
+    "ai-native": {
+        "they_say": "Built from the ground up for the age of intelligence.",
+        "they_mean": "They added an API call to OpenAI and rewrote the landing page overnight.",
+    },
+    "ai native": {
+        "they_say": "Built from the ground up for the age of intelligence.",
+        "they_mean": "They added an API call to OpenAI and rewrote the landing page overnight.",
+    },
+    "semantic": {
+        "they_say": "Meaning-aware intelligence across your entire data estate.",
+        "they_mean": "They ran embeddings on a spreadsheet and called it a knowledge graph.",
+    },
+    "semantics-first": {
+        "they_say": "Meaning-aware intelligence across your entire data estate.",
+        "they_mean": "They ran embeddings on a spreadsheet and called it a knowledge graph.",
+    },
+    "intelligence fabric": {
+        "they_say": "A pervasive layer of AI woven into every workflow.",
+        "they_mean": "They put 'AI' in the name of a middleware product and updated the diagram.",
+    },
+    "copilot": {
+        "they_say": "An AI assistant that works alongside your team.",
+        "they_mean": "A chatbot that can query your database and occasionally make things worse, faster.",
+    },
+    "co-pilot": {
+        "they_say": "An AI assistant that works alongside your team.",
+        "they_mean": "A chatbot that can query your database and occasionally make things worse, faster.",
+    },
+    "intelligent automation": {
+        "they_say": "Self-optimizing workflows that learn from your business.",
+        "they_mean": "An if-statement with a confidence score glued to the front.",
+    },
+    "autonomous": {
+        "they_say": "The system acts without human intervention.",
+        "they_mean": "Nobody is watching what it does in production.",
+    },
+    "decisioning": {
+        "they_say": "Automated intelligent decision-making at enterprise scale.",
+        "they_mean": "It is a rules engine someone renamed after the ChatGPT launch.",
+    },
+    # --- Data architecture terms ---
+    "data mesh": {
+        "they_say": "Federated, domain-owned data at scale.",
+        "they_mean": "They decentralized the problem so no single team can be blamed for it.",
+    },
+    "data fabric": {
+        "they_say": "A unified abstraction layer connecting all your data assets.",
+        "they_mean": "Data mesh, but the PowerPoint uses different shapes.",
+    },
+    "composable": {
+        "they_say": "Modular building blocks that fit your unique architecture.",
+        "they_mean": "It has an API. So does everything else invented after 2010.",
+    },
+    "governed": {
+        "they_say": "Enterprise-grade control and auditability across all assets.",
+        "they_mean": "Someone made a spreadsheet of who owns which table. It is already out of date.",
+    },
+    "unified platform": {
+        "they_say": "One platform to consolidate your entire data workflow.",
+        "they_mean": "They acquired two companies and are still migrating the codebases.",
+    },
+    # --- Infrastructure / Scale terms ---
+    "real-time": {
+        "they_say": "Instant insights as events happen.",
+        "they_mean": "It is a ten-second polling loop. Five if you pay for the premium tier.",
+    },
+    "real time": {
+        "they_say": "Instant insights as events happen.",
+        "they_mean": "It is a ten-second polling loop. Five if you pay for the premium tier.",
+    },
+    "cloud-native": {
+        "they_say": "Architected from day one for elasticity and scale.",
+        "they_mean": "It runs on AWS. They also checked a box that says Kubernetes.",
+    },
+    "cloud native": {
+        "they_say": "Architected from day one for elasticity and scale.",
+        "they_mean": "It runs on AWS. They also checked a box that says Kubernetes.",
+    },
+    "multicloud": {
+        "they_say": "Freedom from vendor lock-in across any cloud provider.",
+        "they_mean": "They got burned by an AWS outage once and now mention Azure in the deck.",
+    },
+    "multi-cloud": {
+        "they_say": "Freedom from vendor lock-in across any cloud provider.",
+        "they_mean": "They got burned by an AWS outage once and now mention Azure in the deck.",
+    },
+    "hyperscale": {
+        "they_say": "Designed to grow with the demands of the world's largest enterprises.",
+        "they_mean": "'Scale' with a shot of espresso and no additional technical meaning.",
+    },
+    "hyper-scale": {
+        "they_say": "Designed to grow with the demands of the world's largest enterprises.",
+        "they_mean": "'Scale' with a shot of espresso and no additional technical meaning.",
+    },
+    "scalable": {
+        "they_say": "Designed to grow effortlessly from startup to enterprise.",
+        "they_mean": "It didn't fall over in the demo. Production results vary.",
+    },
+    "robust": {
+        "they_say": "Enterprise-hardened for reliability under any conditions.",
+        "they_mean": "It has a try/except block. Maybe two.",
+    },
+    # --- Product / Positioning terms ---
+    "context-aware": {
+        "they_say": "The system understands your business in real time.",
+        "they_mean": "It reads your job title from the JWT and changes the dashboard header.",
+    },
+    "context aware": {
+        "they_say": "The system understands your business in real time.",
+        "they_mean": "It reads your job title from the JWT and changes the dashboard header.",
+    },
+    "purpose-built": {
+        "they_say": "Engineered specifically for your use case, not adapted from something else.",
+        "they_mean": "It does one thing. They are very proud of this. The roadmap is a hostage situation.",
+    },
+    "purpose built": {
+        "they_say": "Engineered specifically for your use case, not adapted from something else.",
+        "they_mean": "It does one thing. They are very proud of this. The roadmap is a hostage situation.",
+    },
+    "enterprise-grade": {
+        "they_say": "Production-ready with SOC 2, SSO, and dedicated support.",
+        "they_mean": "It costs ten times more and requires a six-month procurement process.",
+    },
+    "enterprise grade": {
+        "they_say": "Production-ready with SOC 2, SSO, and dedicated support.",
+        "they_mean": "It costs ten times more and requires a six-month procurement process.",
+    },
+    "next-generation": {
+        "they_say": "A fundamentally reimagined approach to the problem.",
+        "they_mean": "Version 2.0, but marketing needed a word that implies they invented something.",
+    },
+    "next generation": {
+        "they_say": "A fundamentally reimagined approach to the problem.",
+        "they_mean": "Version 2.0, but marketing needed a word that implies they invented something.",
+    },
+    "modern": {
+        "they_say": "Built for how teams work today.",
+        "they_mean": "It has a dark mode and a Slack integration. Everything older than 18 months is now legacy.",
+    },
+    "best-in-class": {
+        "they_say": "The leading solution as validated by independent analysts.",
+        "they_mean": "They were in a Gartner Magic Quadrant once. Bottom left quadrant. Still counts.",
+    },
+    "best in class": {
+        "they_say": "The leading solution as validated by independent analysts.",
+        "they_mean": "They were in a Gartner Magic Quadrant once. Bottom left quadrant. Still counts.",
+    },
+    "industry-leading": {
+        "they_say": "The recognized gold standard in the category.",
+        "they_mean": "They are the biggest company in a category they defined themselves last Tuesday.",
+    },
+    "world-class": {
+        "they_say": "Meeting the highest global standards of quality and performance.",
+        "they_mean": "Nobody defined 'world-class.' That is precisely the point.",
+    },
+    "cutting-edge": {
+        "they_say": "At the forefront of innovation in the industry.",
+        "they_mean": "They shipped a feature this quarter. Several competitors shipped it last year.",
+    },
+    "cutting edge": {
+        "they_say": "At the forefront of innovation in the industry.",
+        "they_mean": "They shipped a feature this quarter. Several competitors shipped it last year.",
+    },
+    # --- Experience / UX terms ---
+    "seamless": {
+        "they_say": "Effortless integration across your entire stack.",
+        "they_mean": "The integration works if you read the 47-page setup guide and don't touch the defaults.",
+    },
+    "frictionless": {
+        "they_say": "Zero-effort onboarding and intuitive user experience.",
+        "they_mean": "They removed a step from the signup form and called it a product milestone.",
+    },
+    "end-to-end": {
+        "they_say": "A complete solution covering every stage of the workflow.",
+        "they_mean": "It touches the beginning and the end. The middle is your problem.",
+    },
+    "end to end": {
+        "they_say": "A complete solution covering every stage of the workflow.",
+        "they_mean": "It touches the beginning and the end. The middle is your problem.",
+    },
+    "single pane of glass": {
+        "they_say": "One interface to monitor and manage everything.",
+        "they_mean": "A dashboard that links out to twelve other dashboards.",
+    },
+    # --- Disruption / Vision terms ---
+    "digital transformation": {
+        "they_say": "Modernizing your organization for the future of work.",
+        "they_mean": "Replacing spreadsheets with a SaaS tool and scheduling a board meeting about it.",
+    },
+    "disruptive": {
+        "they_say": "Challenging the incumbent model with a fundamentally better approach.",
+        "they_mean": "They read The Innovator's Dilemma on a flight and never fully recovered.",
+    },
+    "revolutionary": {
+        "they_say": "A once-in-a-generation shift in how the industry operates.",
+        "they_mean": "'Disruptive,' but with higher burn rate and a keynote slot.",
+    },
+    "game-changing": {
+        "they_say": "A development that fundamentally alters competitive dynamics.",
+        "they_mean": "Their Series B press release needed an adjective and 'good' felt insufficient.",
+    },
+    "game changing": {
+        "they_say": "A development that fundamentally alters competitive dynamics.",
+        "they_mean": "Their Series B press release needed an adjective and 'good' felt insufficient.",
+    },
+    "paradigm": {
+        "they_say": "A new mental model for how organizations think about data.",
+        "they_mean": "They read a Thomas Kuhn summary on LinkedIn and applied it to a pie chart.",
+    },
+    "ecosystem": {
+        "they_say": "A thriving community of partners, integrations, and customers.",
+        "they_mean": "Twelve other companies appear on the slide labeled 'Partner Network.' None of them know each other.",
+    },
+    "synergistic": {
+        "they_say": "Unlocking value greater than the sum of its parts.",
+        "they_mean": "Two teams are now in the same Slack workspace. Results pending.",
+    },
+    "synergy": {
+        "they_say": "Unlocking value greater than the sum of its parts.",
+        "they_mean": "Two teams are now in the same Slack workspace. Results pending.",
+    },
+    # --- Empowerment / People terms ---
+    "democratize": {
+        "they_say": "Putting the power of data in the hands of every employee.",
+        "they_mean": "Business users will now break things directly, with no engineer required as an intermediary.",
+    },
+    "empower": {
+        "they_say": "Giving teams the tools to move faster and do more.",
+        "they_mean": "You now have access to a feature you'll need three trainings and a champion to actually use.",
+    },
+    "actionable insights": {
+        "they_say": "Intelligence you can act on immediately.",
+        "they_mean": "Bar charts. With a title. And a recommendation that nobody follows.",
+    },
+    "insights": {
+        "they_say": "Actionable intelligence surfaced automatically from your data.",
+        "they_mean": "Bar charts. With a title.",
+    },
+    "data-driven": {
+        "they_say": "Decisions grounded in evidence, not intuition.",
+        "they_mean": "The HiPPO still decides. The data team builds the deck explaining why they were right.",
+    },
+    "data driven": {
+        "they_say": "Decisions grounded in evidence, not intuition.",
+        "they_mean": "The HiPPO still decides. The data team builds the deck explaining why they were right.",
+    },
+    "holistic": {
+        "they_say": "A comprehensive view of your entire data landscape.",
+        "they_mean": "The dashboard has more than one chart.",
+    },
+    "reimagined": {
+        "they_say": "A fundamentally rethought approach to the problem.",
+        "they_mean": "They redesigned the UI, quietly removed two features, and called it a new product.",
+    },
+    "reimagine": {
+        "they_say": "A fundamentally rethought approach to the problem.",
+        "they_mean": "They redesigned the UI, quietly removed two features, and called it a new product.",
+    },
+    "reinvent": {
+        "they_say": "Starting from first principles to build something truly new.",
+        "they_mean": "Same database. New logo. Fresh runway.",
+    },
+    "rethink": {
+        "they_say": "Challenging assumptions to unlock new possibilities.",
+        "they_mean": "They fired the old product team and are now back in discovery.",
+    },
+    "transformative": {
+        "they_say": "Fundamentally changes how your organization operates.",
+        "they_mean": "It will change things, assuming someone gets buy-in, budget, and six months of change management.",
+    },
+    "innovative": {
+        "they_say": "Pioneering solutions that push the boundaries of what's possible.",
+        "they_mean": "It exists. In a crowded market. This word is doing a lot of lifting.",
+    },
+    "proactive": {
+        "they_say": "The system anticipates issues before they affect your business.",
+        "they_mean": "It sends an email after something breaks. But the subject line says 'early warning.'",
+    },
+    "leverage": {
+        "they_say": "Maximize the value of your existing investments.",
+        "they_mean": "We work with the stuff you already bought. Please don't cancel the contract.",
+    },
+    "360-degree": {
+        "they_say": "A complete, all-angles view of your data and operations.",
+        "they_mean": "The dashboard rotates. Metaphorically.",
+    },
+    "360 degree": {
+        "they_say": "A complete, all-angles view of your data and operations.",
+        "they_mean": "The dashboard rotates. Metaphorically.",
+    },
+    "context-engineered": {
+        "they_say": "Precision-tuned prompts and context for reliable AI output.",
+        "they_mean": "They feed the model enough metadata and examples that it stops free associating like a guy three coffees deep at a whiteboard.",
+    },
+    "semantics first": {
+        "they_say": "Meaning-aware intelligence across your entire data estate.",
+        "they_mean": "They ran embeddings on a spreadsheet and called it a knowledge graph.",
+    },
+    "observable": {
+        "they_say": "Full visibility into system behavior at every layer.",
+        "they_mean": "The model is doing weird stuff in production, and now they need logs with better branding.",
+    },
+    "intelligent": {
+        "they_say": "AI-powered capabilities embedded throughout the product.",
+        "they_mean": "There is a model somewhere in there. It may or may not be doing what you think.",
+    },
+    "autonomously": {
+        "they_say": "The system acts without human intervention.",
+        "they_mean": "Nobody is watching what it does in production.",
+    },
+    "reactive": {
+        "they_say": "Event-driven architecture that responds instantly to change.",
+        "they_mean": "It polls. Just faster polling than before, with a better name.",
+    },
 }
 
 
