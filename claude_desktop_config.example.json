@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "buzzops": {
+      "command": "/absolute/path/to/BuzzOps/.venv/bin/buzzops",
+      "args": []
+    }
+  }
+}

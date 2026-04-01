@@ -215,3 +215,4 @@ build/
 .idea/
 .DS_Store
 *.env
+claude_desktop_config.json

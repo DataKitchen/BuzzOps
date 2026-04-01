@@ -17,5 +17,8 @@ dependencies = [
 [project.scripts]
 buzzops = "buzzops.server:main"
 
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
 [tool.hatch.build.targets.wheel]
 packages = ["buzzops"]

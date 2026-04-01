@@ -57,19 +57,14 @@ pip install -e .
 
 ## Connect to Claude Desktop
 
-Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+Copy the included template and fill in your path:
 
-```json
-{
-  "mcpServers": {
-    "buzzops": {
-      "command": "/absolute/path/to/BuzzOps/.venv/bin/buzzops"
-    }
-  }
-}
+```bash
+cp claude_desktop_config.example.json \
+   ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 
-Then restart Claude Desktop. BuzzOps will appear as an available MCP server.
+Then edit the file and replace `/absolute/path/to/BuzzOps` with your actual clone path. Restart Claude Desktop — BuzzOps will appear as an available MCP server.
 
 ## Run the test suite
 
