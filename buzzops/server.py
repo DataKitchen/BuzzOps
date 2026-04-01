@@ -199,7 +199,7 @@ def _fetch_url(url: str, timeout: int = 15) -> str:
 def _ddg_search(query: str, max_results: int = 5) -> list[dict]:
     """DuckDuckGo text search, returns list of {title, href, body}."""
     try:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
         with DDGS() as ddgs:
             return list(ddgs.text(query, max_results=max_results))
     except Exception as exc:
