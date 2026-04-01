@@ -4,6 +4,8 @@
 Every vendor is now agentic, AI-native, and context-aware. We built a tool that tells you what they actually do.
 The data engineering and data analytics world has become a full-blown buzzword petting zoo. The second a phrase gets even a little heat, the whole industry rolls in it until nobody can tell who does observability, who does ETL, who does metadata, who does AI agents, and who just hired a designer to draw glowing cubes. Add years of overinvestment in data, plus marketing teams under extreme pressure to keep producing buzzword-compliant content, and now we are all trapped in a storm of "agentic," "semantic," "AI native," and "context aware" with no idea what anyone actually sells.
 
+![Introducing BuzzOps](https://b3756316.smushcdn.com/3756316/wp-content/uploads/2026/04/image_01-png.webp?lossy=2&strip=1&webp=1 "Introducing BuzzOps")
+
 So naturally, we built something about it.
 
 **🚨 Introducing DataKitchen BuzzOps™ 🚨**
