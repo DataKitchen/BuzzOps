@@ -5,6 +5,7 @@ Every vendor is now agentic, AI-native, and context-aware. We built a tool that 
 The data engineering and data analytics world has become a full-blown buzzword petting zoo. The second a phrase gets even a little heat, the whole industry rolls in it until nobody can tell who does observability, who does ETL, who does metadata, who does AI agents, and who just hired a designer to draw glowing cubes. Add years of overinvestment in data, plus marketing teams under extreme pressure to keep producing buzzword-compliant content, and now we are all trapped in a storm of "agentic," "semantic," "AI native," and "context aware" with no idea what anyone actually sells.
 
 So naturally, we built something about it.
+
 **🚨 Introducing DataKitchen BuzzOps™ 🚨**
 The industry's first open-source, agentic, reactive, context-engineered, AI-native, semantics-first, shift-left, vendor-agnostic, cloud-flexible buzzword operations platform for modern data teams.
 Translation: BuzzOps plugs into Claude or ChatGPT through MCP and translates vendor nonsense into words a normal person can survive.
@@ -27,8 +28,8 @@ It tracks funding, posting velocity, employee buzzword density, and increasing d
 **Investor Combustion Model™**
 Under the hood is our proprietary Investor Combustion Model™, which measures how quickly venture capital is being transformed into adjectives. It analyzes LinkedIn posts per employee, buzzwords per post, and funding raised versus product clarity, then answers buyer questions like:
 "How many quarters until this company becomes a content strategy with a logo?" and "Is this an AI observability platform, or just $180 million trapped inside a synonym generator?"
-**
-Why Now?**
+
+**Why Now?**
 Because in 2026, every chatbot is a copilot, every script is an agent, every table is a product, and every startup that raised too much money is one brand refresh away from becoming undead.
 With BuzzOps, your team can finally answer the question every buyer is secretly thinking:
 "What the hell do you people actually do?"
