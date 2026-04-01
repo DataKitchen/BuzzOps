@@ -36,3 +36,73 @@ Because in 2026, every chatbot is a copilot, every script is an agent, every tab
 With BuzzOps, your team can finally answer the question every buyer is secretly thinking:
 "What the hell do you people actually do?"
 
+***
+
+# How to Use BuzzOps
+
+## Requirements
+
+- Python 3.10+
+- Claude Desktop (or any MCP-compatible client)
+
+## Install
+
+```bash
+git clone https://github.com/DataKitchen/BuzzOps.git
+cd BuzzOps
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+## Connect to Claude Desktop
+
+Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "buzzops": {
+      "command": "/absolute/path/to/BuzzOps/.venv/bin/buzzops"
+    }
+  }
+}
+```
+
+Then restart Claude Desktop. BuzzOps will appear as an available MCP server.
+
+## Run the test suite
+
+```bash
+python test_buzzops.py
+```
+
+## Example prompts
+
+Once connected to Claude:
+
+- `Use BuzzOps to debuzz https://somevendor.com/platform`
+- `Run RetroHalo on Databricks`
+- `What's the Countdown to Zombie score for [startup name]?`
+- `Run the Investor Combustion Model on Collibra`
+
+## The BuzzOps Field Guide
+
+The canonical translation table built into the Debuzzer:
+
+| Buzzword | What they say | What they mean |
+|----------|--------------|----------------|
+| Context engineering | "We make AI understand your business context." | They feed the model enough metadata and examples that it stops free associating like a guy three coffees deep at a whiteboard. |
+| Agentic analytics | "Autonomous agents reason over your data and take action." | It is a chatbot with tool access and the confidence of a summer intern. |
+| Data contracts | "Governed producer consumer reliability at scale." | They want upstream teams to stop breaking things and acting surprised. |
+| Shift left | "Quality embedded early in the lifecycle." | Catch the problem before it reaches the CEO's dashboard and ruins everyone's afternoon. |
+| AI observability | "Full stack monitoring for intelligent systems." | The model is doing weird stuff in production, and now they need logs with better branding. |
+| Data products | "Domain-owned reusable analytical assets." | They put an owner, an SLA, and a roadmap on a table. |
+| Lakehouse | "A unified architecture for all enterprise workloads." | It is storage, compute, and a very determined marketing team. Oh, and buy Databricks. |
+| MCP | "A standard protocol for model tool interoperability." | A cleaner way to plug an LLM into stuff. |
+| AI-ready governance | "Responsible innovation with trusted enterprise controls." | Same governance meeting. New deck. More panic. |
+
+## License
+
+Apache 2.0 — see [LICENSE](LICENSE).
+
