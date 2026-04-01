@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "buzzops"
+version = "0.1.0"
+description = "BuzzOps: The industry's first open-source agentic buzzword operations platform. Translates vendor nonsense into words a normal person can survive."
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "duckduckgo-search>=6.0.0",
+]
+
+[project.scripts]
+buzzops = "buzzops.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["buzzops"]
