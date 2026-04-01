@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "buzzops": {
-      "command": "/Users/chris.bergh/PycharmProjects/BuzzOps/.venv/bin/buzzops",
-      "args": []
-    }
-  }
-}
